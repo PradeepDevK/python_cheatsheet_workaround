@@ -1,0 +1,11 @@
+# swap two numbers
+a, b = b, a
+
+# reverse a string
+reversed = inputstr[::-1]
+
+# Factorial of a numbers
+fact = lambda n: 1 if n == 0 else n * fact(n -1)
+
+# string palindrome
+palindrome = inputstr == inputstr[::-1]
